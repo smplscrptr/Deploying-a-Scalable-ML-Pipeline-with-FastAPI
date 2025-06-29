@@ -15,12 +15,12 @@ data = pd.read_csv(data_path)
 cat_features = [
     "workclass",
     "education",
-    "marital_status",
+    "marital-status",
     "occupation",
     "relationship",
     "race",
     "sex",
-    "native_country",
+    "native-country",
 ]
 
 train, test = train_test_split(data, test_size=0.2, random_state=42)
